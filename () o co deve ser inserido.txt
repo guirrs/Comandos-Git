@@ -3,9 +3,24 @@
 
 //cria uma branch que eh um arquivo que nao altera o codigo principal, assim alterando sem afetar o programa
 git branch (nome)
+
 // Voce altera a branch alterando a branch
 git checkout (nomeBranch)
+
 // Volta para o codigo original
 git checkout (main)
+
 // puxa o codigo da branch para main
 git merge (branch)
+
+// mostra todas as branch do projeto
+git branch -a
+
+// se adicionarem novas branch no git mas nao tem no seu // computador, ela manda essas branch para seu git
+git fetch
+Para enviar sua branch no git, voce precisa estar no checkout dela e dar git push origin branch
+
+
+Para pegar uma pasta do git para seu computador, voce cria uma pasta, da git init> git clone (link do git).
+
+https://excalidraw.com/
