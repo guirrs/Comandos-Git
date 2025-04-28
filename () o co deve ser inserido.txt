@@ -1,0 +1,11 @@
+()// o co deve ser inserido
+
+
+//cria uma branch que eh um arquivo que nao altera o codigo principal, assim alterando sem afetar o programa
+git branch (nome)
+// Voce altera a branch alterando a branch
+git checkout (nomeBranch)
+// Volta para o codigo original
+git checkout (main)
+// puxa o codigo da branch para main
+git merge (branch)
